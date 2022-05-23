@@ -502,6 +502,7 @@ h1 {
   position: absolute;
   width: 28px;
   height: 28px;
+  background-color: transparent;
   background-image: url("../img/products/shoppingcart.svg");
   background-repeat: no-repeat;
   background-size: contain;
