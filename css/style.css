@@ -89,6 +89,7 @@ section {
   background-size: 35px 39px;
   background-position: center;
   transition: 0.6s all ease;
+  cursor: pointer;
 }
 
 .logo:hover {
