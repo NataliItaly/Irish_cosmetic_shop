@@ -585,6 +585,10 @@ h1 {
   }
 }
 
+.products .item-busket {
+  bottom: 60px;
+}
+
 .big .item-price {
   margin-top: 15px;
 }
