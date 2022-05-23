@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&family=Playfair+Display+SC&family=Work+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Diamaint Irish Cosmetic</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo-nav-wrapper">
+          <div class="logo dandelion-animation"></div>
+          <nav class="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="#about" class="menu-link active">О продукте</a>
+              </li>
+              <li class="menu-item">
+                <a href="#products" class="menu-link">Каталог</a>
+              </li>
+              <li class="menu-item">
+                <a href="#sales" class="menu-link">Акции</a>
+              </li>
+              <li class="menu-item">
+                <a href="#advices" class="menu-link">Полезное</a>
+              </li>
+              <li class="menu-item">
+                <a href="#developers" class="menu-link">Авторы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="busket-social-wrapper">
+          <div class="busket">
+            <div class="goods-quantity">2</div>
+          </div>
+          <ul class="social-wrapper">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/"
+                class="facebook"
+                target="_blank"
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/"
+                class="instagram"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+          <div>
+            <input
+              type="checkbox"
+              id="checkbox"
+              class="checkbox visually-hidden"
+            />
+            <label for="checkbox" class="burger-menu">
+              <div class="hamburger">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+                <span class="bar bar5"></span>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="about" id="about">
+        <div class="container">
+          <h1>Diamaint</h1>
+          <div class="about-text">
+            <div class="about-text-column">
+              <h2 class="subtitle">
+                Натуральная косметика <br />
+                с привкусом Ирландии
+              </h2>
+              <p class="text-content">
+                Ингридиенты контролируются по качеству и происхождению.
+                Большинство из них имеют органический сертификат Ecoсert и Soil
+                Association. Сочетание компонентов в каждой линейке подобрано с
+                учетом особенностей типа кожи.
+              </p>
+            </div>
+            <div class="about-text-column">
+              <p class="text-content">
+                Diamaint — <strong>одуванчик</strong> в переводе с ирландского
+              </p>
+              <p class="text-content">
+                Косметика, после которой вы уже никогда не будете прежней и
+                обретёте новую жизнь, где наша продукция будет вашим верным
+                спутником и помощником
+              </p>
+              <p class="text-content">
+                Используем всю силу природы, а так же новейшие разработки
+                индустрии вкупе традиционными ирландскими рецептами для того,
+                чтобы придать вашей коже здоровый и цветущий вид
+              </p>
+              <a href="#products" class="choose-product"> Выбрать продукт </a>
+              <p class="text-content">
+                В основе — активные натуральные комплексы, витамины С, А, РР, В
+                И Е, масла, воски, минералы и натуральные солнцезащитные
+                компоненты.
+              </p>
+            </div>
+            <div class="about-text-column">
+              <p class="help-choose">
+                Подбираем комплекс специально для вашего типа кожи
+              </p>
+              <p class="ingredients">
+                Diamaint — только натуральные ингрeдиенты
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="container">
+          <h2 class="section-title title-center">Выбери свой продукт</h2>
+          <ul class="products-wrapper">
+            <li class="products-item">
+              <img src="img/products/jar1.png" alt="product's picture" />
+              <h3 class="item-title">для нормальной кожи</h3>
+              <p class="item-subtitle">
+                Увлажняющий <br />
+                мусс
+              </p>
+              <p class="item-price">27 $</p>
+              <button class="item-busket dandelion-animation"></button>
+            </li>
+            <li class="products-item big">
+              <img src="img/products/jar2.png" alt="product's picture" />
+              <h3 class="item-title">для нормальной кожи</h3>
+              <p class="item-subtitle">
+                Увлажняющая <br />
+                маска
+              </p>
+              <p class="item-price">35 $</p>
+              <button class="item-busket dandelion-animation"></button>
+              <div class="sale"></div>
+            </li>
+            <li class="products-item">
+              <img src="img/products/jar3.png" alt="product's picture" />
+              <h3 class="item-title">для нормальной кожи</h3>
+              <p class="item-subtitle">
+                Гель <br />
+                для умывания
+              </p>
+              <p class="item-price">16 $</p>
+              <button class="item-busket dandelion-animation"></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sales" id="sales">
+        <div class="container">
+          <div class="sales-slider-wrapper">
+            <div class="text-wrapper">
+              <h2 class="section-title">Акции</h2>
+              <p>
+                Каждый месяц мы отбираем специальную линейку продуктов, которая
+                нравится вам и снижаем цены!
+              </p>
+              <div class="slider-buttons-wrapper">
+                <button class="slider-button disabled">&lt;</button>
+                <button class="slider-button">&gt;</button>
+              </div>
+            </div>
+
+            <div class="slider-wrapper">
+              <div class="slider-slide">
+                <div class="slider-pagination">01</div>
+                <p class="slider-title">
+                  Invisible symphony — ваша волшебная палочка для борьбы с
+                  несовершенствами
+                </p>
+                <p class="slider-text">
+                  Сочетая энергию природы и возможности науки восстанавливает
+                  вашу кожу, помогает регенерации клеток, разглаживает рельеф,
+                  интенсивно увлажняет надолго.
+                </p>
+                <p class="skin-type">для нормальной кожи</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sales-card-wrapper">
+            <div class="sales-card">
+              <h3 class="card-title">СКИДКА 5%</h3>
+              <img src="img/sales/1.png" alt="cosmetic picture" />
+              <p class="card-description">
+                Приобретая увлажняющий крем и маску, вы получаете скидку 5% на
+                весь товар
+              </p>
+              <p class="card-price">
+                <span class="line-through">5000</span>
+                <span class="now-price">4750 $</span>
+              </p>
+              <button class="item-busket"></button>
+            </div>
+
+            <div class="sales-card second-card">
+              <h3 class="card-title">СКИДКА 10%</h3>
+              <img src="img/sales/2.png" alt="cosmetic picture" />
+              <p class="card-description">
+                Приобретая увлажняющий мусс и гель для умывания, вы получаете
+                скидку 10% на весь товар
+              </p>
+              <p class="card-price">
+                <span class="line-through">4400 </span>
+                <span class="now-price"> 3960 $</span>
+              </p>
+              <button class="item-busket"></button>
+            </div>
+
+            <div class="sales-card third-card">
+              <h3 class="card-title">СКИДКА 20%</h3>
+              <img src="img/sales/3.png" alt="cosmetic picture" />
+              <p class="card-description">
+                Приобретая весь набор Invisible symphony, вы получаете скидку
+                20% на весь товар
+              </p>
+              <p class="card-price">
+                <span class="line-through">9400</span>
+                <span class="now-price">7520 $</span>
+              </p>
+              <button class="item-busket"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testing">
+        <div class="container">
+          <div class="img-wrapper">
+            <img src="img/testing/testing-img.png" alt="woman" />
+          </div>
+
+          <div class="text-wrapper">
+            <p class="testing-title">Протестировали и довольны результатом</p>
+            <h2 class="section-title">
+              <span class="testing-subtitle">6800</span> <br />
+              женщин
+            </h2>
+            <p>
+              96% женщин заметили положительный результат уже после недели
+              использования линейки средств. Кожа стала более ухоженной,
+              увлажненной и напитанной. Исчезли или значительно уменьшились
+              воспаления. А приятный аромат и легкая текстура стали отличным
+              дополнением с утренне-вечерним ритуалам ухода
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="advices" id="advices">
+        <div class="container">
+          <h2 class="section-title title-center" id="advice-section-title">
+            Полезно узнать
+          </h2>
+          <ul class="advice-wrapper">
+            <li class="advice-card">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Как выбрать крем</h3>
+              <p>
+                7 критериев правильного выбора. Под воздействием окружающей
+                среды кожа теряет питательные вещества...
+              </p>
+              <button class="read-more" data-number="advice1">читать</button>
+
+              <div class="read-advice-item" id="advice1" data-number="advice1">
+                <p class="sup-title">Совет</p>
+                <h3 class="advice-title">Как выбрать крем</h3>
+                <p>
+                  7 критериев правильного выбора. Под воздействием окружающей
+                  среды кожа теряет питательные вещества. Неблагоприятное
+                  воздействие окружающей среды является комплексным явлением,
+                  включающим в себя загрязнение воздуха выхлопными газами,
+                  выбросы промышленных предприятий, микрочастицы асфальта,
+                  промышленную пыль и другие элементы
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officia, voluptatem tenetur! Expedita fugit nostrum id
+                  incidunt delectus perferendis accusantium optio consequuntur.
+                  Itaque voluptatibus fugit sunt tempore asperiores saepe
+                  tenetur quae!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                  alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                  dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                  ea nobis.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officia, voluptatem tenetur! Expedita fugit nostrum id
+                  incidunt delectus perferendis accusantium optio consequuntur.
+                  Itaque voluptatibus fugit sunt tempore asperiores saepe
+                  tenetur quae!
+                </p>
+              </div>
+            </li>
+            <li class="advice-card">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Что добавить к зимнему уходу</h3>
+              <p>
+                Зимой кожа лица особенно остро нуждается в уходе. Холод и ветер,
+                сухость воздуха отапливаемых помещений...
+              </p>
+              <button class="read-more" data-number="advice2">читать</button>
+
+              <div class="read-advice-item" id="advice2" data-number="advice2">
+                <p class="sup-title">Совет</p>
+                <h3 class="advice-title">Что добавить к зимнему уходу</h3>
+                <p>
+                  Зимой кожа лица особенно остро нуждается в уходе. Холод и
+                  ветер, сухость воздуха отапливаемых помещенийнамного суше, чем
+                  летом. Так кто же ворует воду из воздуха?
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officia, voluptatem tenetur! Expedita fugit nostrum id
+                  incidunt delectus perferendis accusantium optio consequuntur.
+                  Itaque voluptatibus fugit sunt tempore asperiores saepe
+                  tenetur quae!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                  alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                  dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                  ea nobis.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officia, voluptatem tenetur! Expedita fugit nostrum id
+                  incidunt delectus perferendis accusantium optio consequuntur.
+                  Itaque voluptatibus fugit sunt tempore asperiores saepe
+                  tenetur quae!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                  alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                  dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                  ea nobis.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Officia, voluptatem tenetur! Expedita fugit nostrum id
+                  incidunt delectus perferendis accusantium optio consequuntur.
+                  Itaque voluptatibus fugit sunt tempore asperiores saepe
+                  tenetur quae!
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                  alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                  dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                  ea nobis.
+                </p>
+              </div>
+            </li>
+            <li class="advice-card">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Как узнать свой тип кожи</h3>
+              <p>
+                У одних кожа от природы жирная, у других сухая и тонкая,
+                считается, что в современных условиях<span class="dots"
+                  >...</span
+                >
+              </p>
+              <button class="read-more" data-number="advice3">читать</button>
+            </li>
+            <li class="advice-card">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Как правильно наносить крем</h3>
+              <p>
+                Любой тип кожи нельзя сильно натирать при очищении или
+                тонизировании, все движения<span class="dots">...</span>
+              </p>
+              <button class="read-more" data-number="advice4">читать</button>
+            </li>
+          </ul>
+          <!-- <ul class="read-advice-wrapper">
+            <li class="read-advice-item" id="advice1" data-number="advice1">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Как выбрать крем</h3>
+              <p>
+                7 критериев правильного выбора. Под воздействием окружающей
+                среды кожа теряет питательные вещества. Неблагоприятное
+                воздействие окружающей среды является комплексным явлением,
+                включающим в себя загрязнение воздуха выхлопными газами, выбросы
+                промышленных предприятий, микрочастицы асфальта, промышленную
+                пыль и другие элементы
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+            </li>
+            <li class="read-advice-item" id="advice2" data-number="advice2">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Что добавить к зимнему уходу</h3>
+              <p>
+                Зимой кожа лица особенно остро нуждается в уходе. Холод и ветер,
+                сухость воздуха отапливаемых помещенийнамного суше, чем летом.
+                Так кто же ворует воду из воздуха?
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+            </li>
+            <li class="read-advice-item" data-number="advice3">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Как узнать свой тип кожи</h3>
+              <p>
+                У одних кожа от природы жирная, у других сухая и тонкая,
+                считается, что в современных условиях нормальная кожа
+                встречается очень редко, чаще комбинированная – Кожа может вести
+                себя по-разному в зависимости от времени года и температурных и
+                погодных условий.
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt dict
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Officia, voluptatem tenetur! Expedita fugit nostrum id incidunt
+                delectus perferendis accusantium optio consequuntur. Itaque
+                voluptatibus fugit sunt tempore asperiores saepe tenetur quae!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem a quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+            </li>
+            <li class="read-advice-item" data-number="advice4">
+              <p class="sup-title">Совет</p>
+              <h3 class="advice-title">Как правильно наносить крем</h3>
+              <p>
+                Любой тип кожи нельзя сильно натирать при очищении или
+                тонизировании, все движения нужно выполнять медленно.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem a quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem a quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
+                alias dolor eum nesciunt! Quia fugit excepturi est deserunt
+                dicta quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+              <p>
+                Lorem a quidem delectus sunt officiis, in maxime rem eaque nihil
+                ea nobis.
+              </p>
+            </li>
+          </ul> -->
+        </div>
+      </section>
+
+      <section class="developers" id="developers">
+        <div class="container">
+          <div class="developers-text-column">
+            <h2 class="section-title">Авторы и идеологи</h2>
+            <article class="developers-description">
+              <h3 class="developers-title">Маша Шестякова</h3>
+              <p>
+                Маша — главный идеолог, создатель проекта и по совместительству
+                главный добытчик рецептов. Машиной фишкой является
+                бабушка-ирландка, бывшая модель с бесконечным запасом
+                проверенных на себе народных рецептов.
+              </p>
+              <blockquote class="developer-quote">
+                Мне нравится адаптировать культуру моих предков к современности.
+                Я чувствую, что создаю нить между разными эпохами. И то, что мой
+                продукт делает девушек красивыми и уверенными в себе, помогает
+                мне чувствовать себя счастливой!
+              </blockquote>
+            </article>
+            <div class="developers-slider-preview">
+              <img
+                class="preview-img active"
+                src="img/developers/developers-img1.jpg"
+                alt="developers picture"
+              />
+              <img
+                class="preview-img"
+                src="img/developers/developers-img2.jpg"
+                alt="developers picture"
+              />
+              <img
+                class="preview-img"
+                src="img/developers/developers-img3.jpg"
+                alt="developers picture"
+              />
+            </div>
+          </div>
+
+          <div class="developers-img-column">
+            <div class="slider-screen">
+              <img
+                class="developers-slider-img"
+                src="img/developers/developers-img1.jpg"
+                alt="developers image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="contacts-wrapper">
+          <h2 class="section-title">Контакты</h2>
+          <ul class="footer-links">
+            <li class="footer-link-item">
+              <a href="tel:+1234567890">+1234567890</a>
+            </li>
+            <li class="footer-link-item">
+              <a
+                href="https://www.google.it/maps/place/Donnybrook,+Co.+Dublino,+Irlanda/@53.3192706,-6.2407717,15z/data=!3m1!4b1!4m13!1m7!3m6!1s0x48670e80ea27ac2f:0xa00c7a9973171a0!2sDublino,+Irlanda!3b1!8m2!3d53.3498053!4d-6.2603097!3m4!1s0x48670eca24a5fecf:0x3bcdfdd11ea7760c!8m2!3d53.3192616!4d-6.2320375"
+                target="_blank"
+                >Дублин, Ленстер,24</a
+              >
+            </li>
+          </ul>
+          <ul class="social-wrapper">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/"
+                class="facebook"
+                target="_blank"
+              ></a>
+            </li>
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/"
+                class="instagram"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
