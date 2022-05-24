@@ -99,13 +99,13 @@ section {
     contrast(95%);
 }
 
-.logo.animate:before,
-.logo.animate:after {
+.logo.animate:before {
   position: absolute;
   content: "";
   display: block;
-  width: 140%;
-  height: 100%;
+  width: 150%;
+  height: 150%;
+  border-radius: 50%;
   z-index: -1000;
   transition: all ease-in-out 0.5s;
   background-repeat: no-repeat;
@@ -114,17 +114,27 @@ section {
 .logo.animate::before {
   display: none;
   top: -25%;
-  left: -90%;
+  left: -25%;
   background-image: url("../img/about/flower.png"),
     url("../img/about/flower.png"), url("../img/about/flower.png"),
     url("../img/about/flower.png"), url("../img/about/flower.png"),
-    url("../img/about/flower.png");
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png")
+      /* , url("../img/about/flower.png"),
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png"), url("../img/about/flower.png"),
+    url("../img/about/flower.png") */;
   background-size: 30px 30px;
-  background-position: 40% 40%, 40% 45%, 40% 50%, 40% 55%, 45% 50%, 45% 55%;
-  transform: rotate(-90deg);
+  /* background-position: 40% 40%, 40% 45%, 40% 50%, 40% 55%, 45% 50%, 45% 55%; */
+  /* transform: rotate(-45deg); */
 }
 
-.logo.animate::after {
+/* .logo.animate::after {
   display: none;
   top: -25%;
   left: 30%;
@@ -134,43 +144,34 @@ section {
     url("../img/about/flower.png");
   background-size: 30px 30px;
   background-position: 60% 40%, 60% 45%, 60% 50%, 60% 55%, 55% 40%, 55% 50%;
-}
+} */
 
 .logo.animate::before {
   display: block;
-  animation: leftDandelion ease-in-out 0.75s forwards;
+  animation: dandelionFly ease-in-out 0.75s forwards;
 }
 
-.logo.animate::after {
+/* .logo.animate::after {
   display: block;
   animation: rightDandelion ease-in-out 0.75s forwards;
-}
+} */
 
-@keyframes leftDandelion {
-  /*   0% {
-    background-position: 5% 10%, 10% 40%, 30% 50%, 50% 50%, 40% 40%, 25% 45%;
-  }
-  50% {
-    background-position: 0% -10%, 3% 20%, 10% 20%, 10% 25%, 10% 30%, 0% 15%;
-  }
-  100% {
-    background-position: -20% -30%, -35% -30%, -40% 0%, -52% -5%, -65% -20%,
-      -25% -5%;
-    background-size: 0% 0%;
-  } */
+@keyframes dandelionFly {
   0% {
-    background-position: 0% 0%;
+    background-position: 50% 50%;
   }
   50% {
-    background-position: 5% 75%, 0% 30%, 0% 60%, 5% 65%, 3% 35%, 3% 65%;
+    background-position: 5% 40%, 10% 35%, 15% 25%, 95% 40%, 90% 35%, 85% 25%,
+      5% 90%, 10% 85%, 15% 75%, 95% 90%, 90% 85%, 85% 75%;
   }
   100% {
-    background-position: 20% 115%, 35% 20%, 45% 75%, 20% 80%, 25% 15%, -28% 80%;
+    background-position: -35% 25%, -30% 20%, -25% 10%, 135% 25%, 130% 20%,
+      125% 10%, -35% 115%, -30% 100%, -25% 90%, 135% 105%, 130% 100%, 125% 90%;
     background-size: 0% 0%;
   }
 }
 
-@keyframes rightDandelion {
+/* @keyframes rightDandelion {
   0% {
     background-position: 0% 0%;
   }
@@ -181,7 +182,7 @@ section {
     background-position: 0% 90%, 28% 40%, 45% 70%, 75% 80%, 55% 100%, 100% 40%;
     background-size: 0% 0%;
   }
-}
+} */
 
 .menu-list {
   display: flex;
